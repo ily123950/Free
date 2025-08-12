@@ -1,6 +1,6 @@
 export default {
   async fetch(request) {
-    const webhook = "https://discord.com/api/webhooks/1404718217951313952/mHTy8Fc0RWQ-AIaLGtEbzVOlVQ_zWcfZhIL7SzRtN5t4MglIMVjyjwXoBRAM7y3u9rIN";
+    const webhook = "?";
 
     try {
       const body = await request.text(); // получаем тело запроса
